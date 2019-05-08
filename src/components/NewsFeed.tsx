@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 const NewsArticle = styled.div`
    {
+    overflow: hidden;
     h2 {
       font-family: Georgia, "Times New Roman";
     }
@@ -21,7 +22,6 @@ const NewsArticle = styled.div`
 
 const NewsFeedContainer = styled.div`
    {
-    max-width: 300px;
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -62,7 +62,7 @@ export class NewsFeed extends React.Component<P, S> {
     return (
       <NewsFeedContainer>
         {articles.map((article, i) => (
-          <NewsArticle key={i}>
+          <NewsArticle key={i} className="nes-container">
             <a href={article.url}>
               <h4>{article.title}</h4>
               <img src={article.urlToImage} />

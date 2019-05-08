@@ -12,12 +12,14 @@ const StyledHeader = styled.header`
     position: fixed;
     width: 100vw;
     height: 40px;
+    z-index: 10;
   }
 
   h1 {
     font-weight: 300;
     font-size: 1.2rem;
     margin: 0;
+    color: springgreen;
   }
 `;
 

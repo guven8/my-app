@@ -3,6 +3,7 @@ import * as ReactDOM from "react-dom";
 import styled from "styled-components";
 import { Header } from "./components/Header";
 import { NewsFeed } from "./components/NewsFeed";
+import "./style.css";
 
 const App = styled.div`
   * {
@@ -43,6 +44,12 @@ function AppContainer() {
       <Header />
       <div className="content">
         <NewsFeed />
+        {/* <div className="nes-container">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
+          voluptatibus aliquid ea, illum ab quidem provident aperiam magnam
+          praesentium pariatur, rerum optio amet incidunt iusto veritatis
+          impedit? Officia, porro voluptatem?
+        </div> */}
       </div>
     </App>
   );
