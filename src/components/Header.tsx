@@ -2,18 +2,16 @@ import * as React from "react";
 import styled from "styled-components";
 
 const StyledHeader = styled.header`
-   {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: black;
-    color: white;
-    position: fixed;
-    width: 100vw;
-    height: 40px;
-    z-index: 10;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  height: 40px;
+  z-index: 10;
 
   h1 {
     font-weight: 300;

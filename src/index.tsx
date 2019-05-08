@@ -3,7 +3,6 @@ import * as ReactDOM from "react-dom";
 import styled from "styled-components";
 import { Header } from "./components/Header";
 import { NewsFeed } from "./components/NewsFeed";
-import "./style.css";
 
 const App = styled.div`
   * {

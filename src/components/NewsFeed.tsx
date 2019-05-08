@@ -4,19 +4,17 @@ const topHeadlinesUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=
 import styled from "styled-components";
 
 const NewsArticle = styled.div`
-   {
-    overflow: hidden;
-    h2 {
-      font-family: Georgia, "Times New Roman";
-    }
-    a,
-    a:visited {
-      text-decoration: none;
-      color: inherit;
-    }
-    img {
-      width: 100%;
-    }
+  overflow: hidden;
+  h2 {
+    font-family: Georgia, "Times New Roman";
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  img {
+    width: 100%;
   }
 `;
 
